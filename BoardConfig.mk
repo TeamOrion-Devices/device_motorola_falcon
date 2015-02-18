@@ -31,6 +31,7 @@ KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Rom Toolchain
 TARGET_GCC_VERSION_EXP := 4.9
+TARGET_KERNEL_SOURCE := kernel/motorola/msm8226
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
