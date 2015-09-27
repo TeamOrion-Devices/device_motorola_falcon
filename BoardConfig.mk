@@ -27,7 +27,7 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
 TARGET_KERNEL_CONFIG := falcon_defconfig
-ENABLE_GRAPHITE := true
+
 # Kernel Toolchain
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.2/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
@@ -53,16 +53,10 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
-# Compiler flags
-TARGET_GCC_VERSION_EXP := 4.9
-TARGET_USE_PIPE := true
-USE_O3_OPTIMIZATIONS := true
-SUPPRES_UNUSED_WARNING := true
-KRAIT_TUNINGS := true
-ENABLE_GCCONLY := true
-GRAPHITE_OPTS := true
-STRICT_ALIASING := true
-BOOT_ZIP_OUT_FILE := OrionKernel-$(TARGET_DEVICE)-$(PLATFORM_VERSION)-$(shell date +"%Y%m%d")
+# Orion Optimizations
+USE_O3 := true
+GRAPHITE := true
+LTO := true
 
 # inherit from the proprietary version
 -include vendor/motorola/falcon/BoardConfigVendor.mk
