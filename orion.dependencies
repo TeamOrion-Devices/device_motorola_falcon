@@ -1,6 +1,6 @@
 [
   {
-    "repository":  "SlimRoms/device_motorola_msm8226-common",
+    "repository":  "TeamOrion/device_motorola_msm8226-common",
     "target_path": "device/motorola/msm8226-common",
     "branch":      "mm6.0"
   },
@@ -15,9 +15,9 @@
     "branch":      "mm6.0"
   },
   {
-    "repository":  "SlimRoms/kernel_motorola_msm8226",
+    "repository":  "LinaroCM/android_kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226",
-    "branch":      "mm6.0"
+    "branch":      "cm13"
   },
   {
      "remote": "github",
@@ -29,5 +29,10 @@
     "repository": "SlimRoms/android_external_connectivity",
     "target_path": "external/connectivity",
     "branch":      "mm6.0"
+  },
+   {
+    "repository": "TheMuppets/proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "branch":      "cm-13.0"
   }
 ]
