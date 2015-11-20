@@ -1,6 +1,6 @@
 [
   {
-    "repository":  "TeamOrion/device_motorola_msm8226-common",
+    "repository":  "TeamOrion-Devices/device_motorola_msm8226-common",
     "target_path": "device/motorola/msm8226-common",
     "branch":      "mm6.0"
   },
@@ -31,6 +31,11 @@
     "branch":      "mm6.0"
   },
    {
+    "repository": "TheMuppets/proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "branch":      "cm-13.0"
+  }
+    {
     "repository": "TheMuppets/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
     "branch":      "cm-13.0"
