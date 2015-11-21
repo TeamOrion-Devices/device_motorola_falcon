@@ -33,10 +33,6 @@ TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_PATH)/init/init_falcon.cpp
 TARGET_UNIFIED_DEVICE := true
 
-# Kernel Toolchain
-KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-arm-cortex_a7-linux-gnueabihf-linaro_4.9/bin"
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 10485760
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 10485760
