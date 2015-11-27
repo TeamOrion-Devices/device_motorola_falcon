@@ -20,21 +20,10 @@
     "branch":      "cm13"
   },
   {
-     "remote": "github",
-     "repository": "Christopher83/arm-cortex_a7-linux-gnueabihf-linaro_4.9",
-     "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-arm-cortex_a7-linux-gnueabihf-linaro_4.9",
-     "branch": "master"
-  },
-  {
     "repository": "SlimRoms/android_external_connectivity",
     "target_path": "external/connectivity",
     "branch":      "mm6.0"
   },
-   {
-    "repository": "TheMuppets/proprietary_vendor_motorola",
-    "target_path": "vendor/motorola",
-    "branch":      "cm-13.0"
-  }
     {
     "repository": "TheMuppets/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
