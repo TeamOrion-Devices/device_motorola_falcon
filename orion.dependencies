@@ -15,9 +15,9 @@
     "branch":      "mm6.0"
   },
   {
-    "repository":  "LinaroCM/android_kernel_motorola_msm8226",
+    "repository":  "TeamOrion-Devices/Orion_kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226",
-    "branch":      "cm13"
+    "branch":      "mm6.0"
   },
   {
     "repository": "SlimRoms/android_external_connectivity",
