@@ -1,0 +1,3 @@
+#Enable wifi display for cast
+Persist.debug.wfd.enable=1
+
