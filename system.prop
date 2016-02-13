@@ -1,3 +1,6 @@
 #Enable wifi display for cast
 Persist.debug.wfd.enable=1
 
+#Disable mobile data by default
+ro.com.android.mobiledata=false
+
