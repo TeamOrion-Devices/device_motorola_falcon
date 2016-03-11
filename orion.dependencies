@@ -20,6 +20,12 @@
     "branch":      "6.0.1"
   },
   {
+    "remote":      "orion",
+    "repository":  "device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch":      "6.0.1"
+  },
+  {
     "repository": "TheMuppets/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
     "branch":      "cm-13.0"
