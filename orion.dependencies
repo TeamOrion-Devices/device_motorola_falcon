@@ -20,8 +20,7 @@
     "branch":      "6.0.1"
   },
   {
-    "remote":      "orion",
-    "repository":  "device_qcom_common",
+    "repository":  "TeamOrion/device_qcom_common",
     "target_path": "device/qcom/common",
     "branch":      "6.0.1"
   },
