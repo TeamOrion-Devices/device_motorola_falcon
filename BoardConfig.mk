@@ -44,8 +44,8 @@ TARGET_KERNEL_CONFIG := falcon_defconfig
 
  
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_PATH)/init/init_falcon.cpp
+TARGET_INIT_VENDOR_LIB := libinit_falcon
+TARGET_RECOVERY_DEVICE_MODULES := libinit_falcon
 TARGET_UNIFIED_DEVICE := true
 
 # Partitions
