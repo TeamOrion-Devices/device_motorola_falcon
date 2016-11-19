@@ -25,16 +25,11 @@ TARGET_OTA_ASSERT_DEVICE := xt1031,xt1032,xt1033,xt1034,falcon_umts,falcon_umtsd
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
-# Optimizations
-CLANG_O3 := true
-STRICT_ALIASING := false
-KRAIT_TUNINGS := false
-GRAPHITE_OPTS := false
-ENABLE_GCCONLY := true
-
 #Kernel Toolchain
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-androideabi-4.9/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-linux-androideabi-
+
+USE_CLANG_PLATFORM_BUILD := true
 
 # Rom Toolchain
 TARGET_GCC_VERSION_EXP := 4.9
